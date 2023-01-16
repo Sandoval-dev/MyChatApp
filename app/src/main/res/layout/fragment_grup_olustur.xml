@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.GrupOlustur.GrupOlusturFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grup Adı" />
+
+            <EditText
+                android:id="@+id/grupolustur_grupadi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittextbg"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:padding="10dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grup Simgesi" />
+
+            <ImageView
+                android:id="@+id/grupolustur_simge"
+                android:layout_width="114dp"
+                android:layout_height="91dp"
+                android:layout_margin="10dp"
+                android:src="@android:drawable/presence_busy" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Açıklama" />
+
+            <EditText
+                android:id="@+id/grupolustur_aciklama"
+                android:layout_width="match_parent"
+                android:layout_height="121dp"
+                android:background="@drawable/edittextbg"
+                android:ems="10"
+                android:inputType="textImeMultiLine"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btn_grupolustur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Grup Oluştur"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gruplar" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/grupolustur_tumgrup"
+                android:layout_width="match_parent"
+                android:layout_height="248dp"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edittextbg"
+            android:text="201913709055 - Osman Erdem Kılıç"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signup"
+            app:layout_constraintVertical_bias="1.0" />
+    </LinearLayout>
+</FrameLayout>

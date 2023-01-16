@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MyChatApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="grupolustur">Grup Oluştur</string>
+    <string name="gruba_uye_ekle">Gruba Üye Ekle</string>
+    <string name="mesaj_olustur">Mesaj Oluştur</string>
+    <string name="mesaj_gonder">Mesaj Gönder</string>
+    <string name="log_out">Log Out</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
